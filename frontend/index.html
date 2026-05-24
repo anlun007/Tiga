@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>彩票分析工具 | 3D & 排列三</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== 顶部固定栏 ==================== -->
+<header class="top-bar">
+    <div class="top-bar-row1">
+        <div class="game-tabs" role="tablist" aria-label="彩票玩法切换">
+            <button class="game-btn active" data-game="3d" role="tab">福彩3D</button>
+            <button class="game-btn" data-game="pl3" role="tab">排列三</button>
+        </div>
+        <div class="kill-code-compact">
+            <span class="kill-label">今日杀码</span>
+            <span id="killCodeDisplay" class="kill-nums">-- --</span>
+        </div>
+    </div>
+    <!-- 演示数据提示 -->
+    <div id="demoBanner" class="demo-banner" style="display:none" role="alert">后端未连接，显示演示数据</div>
+    <div class="top-bar-row2">
+        <span id="lastUpdateTime">--</span>
+        <button class="refresh-btn" id="refreshDataBtn">刷新数据</button>
+    </div>
+</header>
+
+<!-- ==================== 页面容器 ==================== -->
+<main class="page-container" id="pageContainer">
+
+    <!-- 页面1：走势 -->
+    <section class="page page--active" id="page-trend" data-page="trend">
+        <div class="filter-row" id="typeFilter">
+            <button class="filter-chip active" data-filter="all">全部</button>
+            <button class="filter-chip" data-filter="组六">组六</button>
+            <button class="filter-chip" data-filter="组三">组三</button>
+            <button class="filter-chip" data-filter="豹子">豹子</button>
+        </div>
+        <div class="trend-card-list" id="trendCardList">
+            <div class="empty-state">加载中…</div>
+        </div>
+    </section>
+
+    <!-- 页面2：推荐 -->
+    <section class="page" id="page-recommend" data-page="recommend">
+        <div class="recommend-list" id="recommendList">
+            <div class="empty-state">加载中…</div>
+        </div>
+    </section>
+
+    <!-- 页面3：统计 -->
+    <section class="page" id="page-stats" data-page="stats">
+        <div class="stats-section" id="hotColdSection"></div>
+        <div class="stats-section" id="missSection"></div>
+        <div class="stats-grid stats-grid--3col" id="summaryGrid"></div>
+    </section>
+
+</main>
+
+<!-- ==================== 底部导航栏 ==================== -->
+<nav class="bottom-nav" aria-label="主导航">
+    <button class="nav-tab active" data-page="trend">
+        <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="14" width="5" height="8" rx="1"/>
+            <rect x="9.5" y="8" width="5" height="14" rx="1"/>
+            <rect x="17" y="4" width="5" height="18" rx="1"/>
+        </svg>
+        <span class="nav-label">走势</span>
+    </button>
+    <button class="nav-tab" data-page="recommend">
+        <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+        </svg>
+        <span class="nav-label">推荐</span>
+    </button>
+    <button class="nav-tab" data-page="stats">
+        <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 2a10 10 0 0 1 7.07 17.07"/>
+            <path d="M12 2v10l7.07 7.07"/>
+        </svg>
+        <span class="nav-label">统计</span>
+    </button>
+</nav>
+
+<script src="api.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

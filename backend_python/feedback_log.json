@@ -1,0 +1,451 @@
+[
+  {
+    "date": "2026-05-19",
+    "game": "3d",
+    "issue": "2026128",
+    "actual": [
+      0,
+      2,
+      3
+    ],
+    "actual_type": "组六",
+    "actual_sum": 5,
+    "actual_span": 3,
+    "predicted_kill": [
+      1,
+      5
+    ],
+    "predicted_top3": [
+      "468",
+      "238",
+      "347"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "238",
+    "notes": "[杀码正确] 微调coldness_w至10.4; 冷号[0]出现，回补+0.07至0.07; 和值5超范围，扩大margin至2; 命中2位! 微调decay=6.1 pos_w=1.03; "
+  },
+  {
+    "date": "2026-05-19",
+    "game": "3d",
+    "issue": "2026128",
+    "actual": [
+      0,
+      2,
+      3
+    ],
+    "actual_type": "组六",
+    "actual_sum": 5,
+    "actual_span": 3,
+    "predicted_kill": [
+      1,
+      5
+    ],
+    "predicted_top3": [
+      "468",
+      "238",
+      "347"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "238",
+    "notes": "[杀码正确] 微调coldness_w至10.9; 和值5超范围，扩大margin至3; 命中2位! 微调decay=6.2 pos_w=1.06; "
+  },
+  {
+    "date": "2026-05-19",
+    "game": "pl3",
+    "issue": "2026128",
+    "actual": [
+      6,
+      8,
+      3
+    ],
+    "actual_type": "组六",
+    "actual_sum": 17,
+    "actual_span": 5,
+    "predicted_kill": [
+      4,
+      0
+    ],
+    "predicted_top3": [
+      "257",
+      "156",
+      "358"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "358",
+    "notes": "[杀码正确] 微调coldness_w至10.4; 命中2位! 微调decay=6.1 pos_w=1.03; "
+  },
+  {
+    "date": "2026-05-20",
+    "game": "3d",
+    "issue": "2026129",
+    "actual": [
+      2,
+      6,
+      7
+    ],
+    "actual_type": "组六",
+    "actual_sum": 15,
+    "actual_span": 5,
+    "predicted_kill": [
+      1,
+      5
+    ],
+    "predicted_top3": [
+      "468",
+      "238",
+      "036"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 3,
+    "best_cand": "267",
+    "notes": "[杀码正确] 微调coldness_w至11.4; 冷号[7]出现，回补+0.07至0.15; 命中3位! 微调decay=6.3 pos_w=1.09; "
+  },
+  {
+    "date": "2026-05-20",
+    "game": "pl3",
+    "issue": "2026129",
+    "actual": [
+      0,
+      7,
+      0
+    ],
+    "actual_type": "组三",
+    "actual_sum": 7,
+    "actual_span": 7,
+    "predicted_kill": [
+      4,
+      0
+    ],
+    "predicted_top3": [
+      "356",
+      "258",
+      "168"
+    ],
+    "kill_correct": false,
+    "any_hit": true,
+    "best_match": 1,
+    "best_cand": "157",
+    "notes": "[杀码失败] 降低coldness_w至8.8; 和值7超范围，扩大margin至2; "
+  },
+  {
+    "date": "2026-05-20",
+    "game": "3d",
+    "issue": "2026129",
+    "actual": [
+      2,
+      6,
+      7
+    ],
+    "actual_type": "组六",
+    "actual_sum": 15,
+    "actual_span": 5,
+    "predicted_kill": [
+      1,
+      5
+    ],
+    "predicted_top3": [
+      "468",
+      "238",
+      "036"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "247",
+    "notes": "[杀码正确] 微调coldness_w至11.9; 冷号[7]出现，回补+0.07至0.22; 命中2位! 微调decay=6.4 pos_w=1.12; "
+  },
+  {
+    "date": "2026-05-20",
+    "game": "pl3",
+    "issue": "2026129",
+    "actual": [
+      0,
+      7,
+      0
+    ],
+    "actual_type": "组三",
+    "actual_sum": 7,
+    "actual_span": 7,
+    "predicted_kill": [
+      4
+    ],
+    "predicted_top3": [
+      "356",
+      "258",
+      "168"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "038",
+    "notes": "[杀码正确] 微调coldness_w至9.2; 和值7超范围，扩大margin至3; 命中2位! 微调decay=6.2 pos_w=1.06; "
+  },
+  {
+    "date": "2026-05-21",
+    "game": "3d",
+    "issue": "2026130",
+    "actual": [
+      5,
+      9,
+      8
+    ],
+    "actual_type": "组六",
+    "actual_sum": 22,
+    "actual_span": 4,
+    "predicted_kill": [
+      1,
+      5
+    ],
+    "predicted_top3": [
+      "246",
+      "238",
+      "068"
+    ],
+    "kill_correct": false,
+    "any_hit": true,
+    "best_match": 1,
+    "best_cand": "238",
+    "notes": "[杀码失败] 降低coldness_w至10.1; 和值22超范围，扩大margin至4; "
+  },
+  {
+    "date": "2026-05-21",
+    "game": "pl3",
+    "issue": "2026130",
+    "actual": [
+      9,
+      6,
+      8
+    ],
+    "actual_type": "组六",
+    "actual_sum": 23,
+    "actual_span": 3,
+    "predicted_kill": [
+      4
+    ],
+    "predicted_top3": [
+      "356",
+      "258",
+      "168"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "168",
+    "notes": "[杀码正确] 微调coldness_w至9.6; 和值23超范围，扩大margin至4; 命中2位! 微调decay=6.3 pos_w=1.09; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "3d",
+    "issue": "2026131",
+    "actual": [
+      7,
+      5,
+      6
+    ],
+    "actual_type": "组六",
+    "actual_sum": 18,
+    "actual_span": 2,
+    "predicted_kill": [
+      1
+    ],
+    "predicted_top3": [
+      "568",
+      "248",
+      "236"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "568",
+    "notes": "[杀码正确] 微调coldness_w至10.6; 跨度2超范围，扩大margin至2; 命中2位! 微调decay=6.5 pos_w=1.15; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "pl3",
+    "issue": "2026131",
+    "actual": [
+      4,
+      4,
+      3
+    ],
+    "actual_type": "组三",
+    "actual_sum": 11,
+    "actual_span": 1,
+    "predicted_kill": [
+      4
+    ],
+    "predicted_top3": [
+      "568",
+      "236",
+      "138"
+    ],
+    "kill_correct": false,
+    "any_hit": true,
+    "best_match": 1,
+    "best_cand": "236",
+    "notes": "[杀码失败] 降低coldness_w至8.2; 冷号[4, 4]出现，回补+0.07至0.07; 跨度1超范围，扩大margin至2; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "3d",
+    "issue": "2026132",
+    "actual": [
+      0,
+      8,
+      0
+    ],
+    "actual_type": "组三",
+    "actual_sum": 8,
+    "actual_span": 8,
+    "predicted_kill": [
+      1
+    ],
+    "predicted_top3": [
+      "568",
+      "246",
+      "238"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "069",
+    "notes": "[杀码正确] 微调coldness_w至11.1; 命中2位! 微调decay=6.6 pos_w=1.18; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "pl3",
+    "issue": "2026132",
+    "actual": [
+      5,
+      4,
+      3
+    ],
+    "actual_type": "组六",
+    "actual_sum": 12,
+    "actual_span": 2,
+    "predicted_kill": [
+      1
+    ],
+    "predicted_top3": [
+      "568",
+      "236",
+      "289"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "359",
+    "notes": "[杀码正确] 微调coldness_w至8.6; 冷号[4]出现，回补+0.07至0.15; 命中2位! 微调decay=6.4 pos_w=1.12; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "3d",
+    "issue": "2026133",
+    "actual": [
+      6,
+      5,
+      4
+    ],
+    "actual_type": "组六",
+    "actual_sum": 15,
+    "actual_span": 2,
+    "predicted_kill": [
+      1
+    ],
+    "predicted_top3": [
+      "568",
+      "246",
+      "238"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "568",
+    "notes": "[杀码正确] 微调coldness_w至11.6; 命中2位! 微调decay=6.7 pos_w=1.22; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "pl3",
+    "issue": "2026133",
+    "actual": [
+      5,
+      4,
+      3
+    ],
+    "actual_type": "组六",
+    "actual_sum": 12,
+    "actual_span": 2,
+    "predicted_kill": [
+      1
+    ],
+    "predicted_top3": [
+      "568",
+      "238",
+      "357"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "357",
+    "notes": "[杀码正确] 微调coldness_w至9.0; 命中2位! 微调decay=6.5 pos_w=1.15; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "pl3",
+    "issue": "2026134",
+    "actual": [
+      5,
+      1,
+      5
+    ],
+    "actual_type": "组三",
+    "actual_sum": 11,
+    "actual_span": 4,
+    "predicted_kill": [
+      2
+    ],
+    "predicted_top3": [
+      "568",
+      "136",
+      "357"
+    ],
+    "kill_correct": true,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "568",
+    "notes": "[杀码正确] 微调coldness_w至9.4; 命中2位! 微调decay=6.6 pos_w=1.18; "
+  },
+  {
+    "date": "2026-05-24",
+    "game": "pl3",
+    "issue": "2026133",
+    "actual": [
+      5,
+      1,
+      5
+    ],
+    "actual_type": "组三",
+    "actual_sum": 11,
+    "actual_span": 4,
+    "predicted_kill": [
+      1
+    ],
+    "predicted_top3": [
+      "568",
+      "238",
+      "357"
+    ],
+    "kill_correct": false,
+    "any_hit": true,
+    "best_match": 2,
+    "best_cand": "568",
+    "notes": "[杀码失败] 降低coldness_w至8.0; 命中2位! 微调decay=6.7 pos_w=1.22; "
+  }
+]

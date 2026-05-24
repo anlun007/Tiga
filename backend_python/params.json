@@ -1,0 +1,41 @@
+{
+  "3d": {
+    "decay": 6.7,
+    "lookback": 20,
+    "iqr_margin_sum": 4,
+    "iqr_margin_span": 2,
+    "kill_count": 2,
+    "coldness_freq_weight": 11.6,
+    "diversity_overlap_max": 1,
+    "pos_weight": 1.22,
+    "recency_weight": 1.0,
+    "cold_rebound_boost": 0.22,
+    "hot_weight_boost": 1.0,
+    "zusan_min_ratio": 0.15,
+    "zusan_max_count": 3,
+    "trend_bias_weight": 0.05
+  },
+  "pl3": {
+    "decay": 6.7,
+    "lookback": 20,
+    "iqr_margin_sum": 4,
+    "iqr_margin_span": 2,
+    "kill_count": 2,
+    "coldness_freq_weight": 8.0,
+    "diversity_overlap_max": 1,
+    "pos_weight": 1.22,
+    "recency_weight": 1.0,
+    "cold_rebound_boost": 0.15,
+    "hot_weight_boost": 1.0,
+    "zusan_min_ratio": 0.15,
+    "zusan_max_count": 3,
+    "trend_bias_weight": 0.05
+  },
+  "meta": {
+    "version": 1,
+    "total_feedback": 17,
+    "total_kill_correct": 13,
+    "total_any_hit": 17,
+    "created": "2026-05-19"
+  }
+}
