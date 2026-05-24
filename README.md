@@ -19,12 +19,10 @@ lottery-tool/
 │       └── pl3.json          # 排列三历史开奖数据
 │
 ├── frontend/                 # 前端
-│   ├── index.html            # 主页面（三页结构：走势 / 推荐 / 统计）
-│   ├── style.css             # 样式（Apple 风浅色主题）
-│   ├── script.js             # 前端交互逻辑
-│   └── api.js                # 后端 API 调用封装
-│
-└── CLAUDE.md                 # Claude Code 配置
+    ├── index.html            # 主页面（三页结构：走势 / 推荐 / 统计）
+    ├── style.css             # 样式（Apple 风浅色主题）
+    ├── script.js             # 前端交互逻辑
+    └── api.js                # 后端 API 调用封装
 ```
 
 ## 核心功能
